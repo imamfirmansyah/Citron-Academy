@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#text-merah {
+	color: red;
+}
+
+.text-biru {
+	color: blue;
+}
+
+.btn {
+	font-family: "Arial", sans-serif;
+	background: #00514F;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.btn:hover {
+	background: #4c8583;
+	transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out; 
+}
+
+.btn.merah {
+	background: #B75862;
+}
+
+.btn.merah:hover {
+	background: #c57981;
+}
+
+img {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.kotak {
+	width: 600px;
+	height: auto;
+	text-align: center;
+	border: 1px solid #000;
+	margin: 30px auto;
+	padding: 20px;
+}
