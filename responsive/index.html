@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Responsive</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<style>
+		.box {
+			width: 260px;
+			height: 260px;
+			background: silver;
+		}
+
+		/* large */
+
+		/* [small screen] */
+		@media screen and (max-width: 576px) {
+			.box {
+				background: blue;
+			}
+		}
+		
+		/* [medium screen] */
+		@media screen and (max-width: 768px) {
+			.box {
+				background: red;
+			}
+		}
+
+		@media only screen and (min-width: 768px) and (max-width: 959px) { 
+			.box {
+				background: black;
+			}
+		}
+
+		/* small */
+	</style>
+</head>
+<body>
+	
+	<div class="box">
+		hello box
+	</div>
+</body>
+</html>
